@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE53400017E129E200735C0F /* config4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE533FFF17E129E200735C0F /* config4@2x.png */; };
+		CE5377BE17E03BA100EF3367 /* set<@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5377BD17E03BA100EF3367 /* set<@2x.png */; };
+		CE5377C017E03C0000EF3367 /* set>@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5377BF17E03C0000EF3367 /* set>@2x.png */; };
+		CE5377C217E03D5C00EF3367 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5377C117E03D5C00EF3367 /* menu@2x.png */; };
+		CEFA995617DB1AEA00E5EC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995517DB1AEA00E5EC94 /* Foundation.framework */; };
+		CEFA995817DB1AEA00E5EC94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995717DB1AEA00E5EC94 /* CoreGraphics.framework */; };
+		CEFA995A17DB1AEA00E5EC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995917DB1AEA00E5EC94 /* UIKit.framework */; };
+		CEFA995C17DB1AEA00E5EC94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995B17DB1AEA00E5EC94 /* CoreData.framework */; };
+		CEFA996217DB1AEA00E5EC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFA996017DB1AEA00E5EC94 /* InfoPlist.strings */; };
+		CEFA996417DB1AEA00E5EC94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA996317DB1AEA00E5EC94 /* main.m */; };
+		CEFA996817DB1AEA00E5EC94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA996717DB1AEA00E5EC94 /* AppDelegate.m */; };
+		CEFA996B17DB1AEA00E5EC94 /* empytima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA996917DB1AEA00E5EC94 /* empytima.xcdatamodeld */; };
+		CEFA996D17DB1AEA00E5EC94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA996C17DB1AEA00E5EC94 /* Images.xcassets */; };
+		CEFA997417DB1AEA00E5EC94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA997317DB1AEA00E5EC94 /* XCTest.framework */; };
+		CEFA997517DB1AEA00E5EC94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995517DB1AEA00E5EC94 /* Foundation.framework */; };
+		CEFA997617DB1AEA00E5EC94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995917DB1AEA00E5EC94 /* UIKit.framework */; };
+		CEFA997717DB1AEA00E5EC94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA995B17DB1AEA00E5EC94 /* CoreData.framework */; };
+		CEFA997F17DB1AEA00E5EC94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFA997D17DB1AEA00E5EC94 /* InfoPlist.strings */; };
+		CEFA998117DB1AEA00E5EC94 /* empytimaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA998017DB1AEA00E5EC94 /* empytimaTests.m */; };
+		CEFA998D17DB1B1200E5EC94 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA998B17DB1B1200E5EC94 /* ViewControllerOne.m */; };
+		CEFA998E17DB1B1200E5EC94 /* ViewControllerOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFA998C17DB1B1200E5EC94 /* ViewControllerOne.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFA997817DB1AEA00E5EC94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFA994A17DB1AEA00E5EC94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFA995117DB1AEA00E5EC94;
+			remoteInfo = empytima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE533FFF17E129E200735C0F /* config4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "config4@2x.png"; sourceTree = "<group>"; };
+		CE5377BD17E03BA100EF3367 /* set<@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set<@2x.png"; sourceTree = "<group>"; };
+		CE5377BF17E03C0000EF3367 /* set>@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "set>@2x.png"; sourceTree = "<group>"; };
+		CE5377C117E03D5C00EF3367 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		CEFA995217DB1AEA00E5EC94 /* empytima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empytima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA995517DB1AEA00E5EC94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFA995717DB1AEA00E5EC94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFA995917DB1AEA00E5EC94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFA995B17DB1AEA00E5EC94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CEFA995F17DB1AEA00E5EC94 /* empytima-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "empytima-Info.plist"; sourceTree = "<group>"; };
+		CEFA996117DB1AEA00E5EC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFA996317DB1AEA00E5EC94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFA996517DB1AEA00E5EC94 /* empytima-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "empytima-Prefix.pch"; sourceTree = "<group>"; };
+		CEFA996617DB1AEA00E5EC94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEFA996717DB1AEA00E5EC94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEFA996A17DB1AEA00E5EC94 /* empytima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = empytima.xcdatamodel; sourceTree = "<group>"; };
+		CEFA996C17DB1AEA00E5EC94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEFA997217DB1AEA00E5EC94 /* empytimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empytimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA997317DB1AEA00E5EC94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEFA997C17DB1AEA00E5EC94 /* empytimaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "empytimaTests-Info.plist"; sourceTree = "<group>"; };
+		CEFA997E17DB1AEA00E5EC94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFA998017DB1AEA00E5EC94 /* empytimaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empytimaTests.m; sourceTree = "<group>"; };
+		CEFA998A17DB1B1200E5EC94 /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		CEFA998B17DB1B1200E5EC94 /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		CEFA998C17DB1B1200E5EC94 /* ViewControllerOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerOne.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFA994F17DB1AEA00E5EC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA995817DB1AEA00E5EC94 /* CoreGraphics.framework in Frameworks */,
+				CEFA995C17DB1AEA00E5EC94 /* CoreData.framework in Frameworks */,
+				CEFA995A17DB1AEA00E5EC94 /* UIKit.framework in Frameworks */,
+				CEFA995617DB1AEA00E5EC94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA996F17DB1AEA00E5EC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA997417DB1AEA00E5EC94 /* XCTest.framework in Frameworks */,
+				CEFA997717DB1AEA00E5EC94 /* CoreData.framework in Frameworks */,
+				CEFA997617DB1AEA00E5EC94 /* UIKit.framework in Frameworks */,
+				CEFA997517DB1AEA00E5EC94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5377AC17E033DF00EF3367 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE5377BF17E03C0000EF3367 /* set>@2x.png */,
+				CE5377C117E03D5C00EF3367 /* menu@2x.png */,
+				CE5377BD17E03BA100EF3367 /* set<@2x.png */,
+				CE533FFF17E129E200735C0F /* config4@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		CEFA994917DB1AEA00E5EC94 = {
+			isa = PBXGroup;
+			children = (
+				CEFA995D17DB1AEA00E5EC94 /* empytima */,
+				CEFA997A17DB1AEA00E5EC94 /* empytimaTests */,
+				CEFA995417DB1AEA00E5EC94 /* Frameworks */,
+				CEFA995317DB1AEA00E5EC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFA995317DB1AEA00E5EC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA995217DB1AEA00E5EC94 /* empytima.app */,
+				CEFA997217DB1AEA00E5EC94 /* empytimaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFA995417DB1AEA00E5EC94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA995517DB1AEA00E5EC94 /* Foundation.framework */,
+				CEFA995717DB1AEA00E5EC94 /* CoreGraphics.framework */,
+				CEFA995917DB1AEA00E5EC94 /* UIKit.framework */,
+				CEFA995B17DB1AEA00E5EC94 /* CoreData.framework */,
+				CEFA997317DB1AEA00E5EC94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFA995D17DB1AEA00E5EC94 /* empytima */ = {
+			isa = PBXGroup;
+			children = (
+				CE5377AC17E033DF00EF3367 /* images */,
+				CEFA996617DB1AEA00E5EC94 /* AppDelegate.h */,
+				CEFA996717DB1AEA00E5EC94 /* AppDelegate.m */,
+				CEFA996C17DB1AEA00E5EC94 /* Images.xcassets */,
+				CEFA996917DB1AEA00E5EC94 /* empytima.xcdatamodeld */,
+				CEFA995E17DB1AEA00E5EC94 /* Supporting Files */,
+				CEFA998A17DB1B1200E5EC94 /* ViewControllerOne.h */,
+				CEFA998B17DB1B1200E5EC94 /* ViewControllerOne.m */,
+				CEFA998C17DB1B1200E5EC94 /* ViewControllerOne.xib */,
+			);
+			path = empytima;
+			sourceTree = "<group>";
+		};
+		CEFA995E17DB1AEA00E5EC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA995F17DB1AEA00E5EC94 /* empytima-Info.plist */,
+				CEFA996017DB1AEA00E5EC94 /* InfoPlist.strings */,
+				CEFA996317DB1AEA00E5EC94 /* main.m */,
+				CEFA996517DB1AEA00E5EC94 /* empytima-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFA997A17DB1AEA00E5EC94 /* empytimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA998017DB1AEA00E5EC94 /* empytimaTests.m */,
+				CEFA997B17DB1AEA00E5EC94 /* Supporting Files */,
+			);
+			path = empytimaTests;
+			sourceTree = "<group>";
+		};
+		CEFA997B17DB1AEA00E5EC94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA997C17DB1AEA00E5EC94 /* empytimaTests-Info.plist */,
+				CEFA997D17DB1AEA00E5EC94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFA995117DB1AEA00E5EC94 /* empytima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA998417DB1AEA00E5EC94 /* Build configuration list for PBXNativeTarget "empytima" */;
+			buildPhases = (
+				CEFA994E17DB1AEA00E5EC94 /* Sources */,
+				CEFA994F17DB1AEA00E5EC94 /* Frameworks */,
+				CEFA995017DB1AEA00E5EC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = empytima;
+			productName = empytima;
+			productReference = CEFA995217DB1AEA00E5EC94 /* empytima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFA997117DB1AEA00E5EC94 /* empytimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA998717DB1AEA00E5EC94 /* Build configuration list for PBXNativeTarget "empytimaTests" */;
+			buildPhases = (
+				CEFA996E17DB1AEA00E5EC94 /* Sources */,
+				CEFA996F17DB1AEA00E5EC94 /* Frameworks */,
+				CEFA997017DB1AEA00E5EC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFA997917DB1AEA00E5EC94 /* PBXTargetDependency */,
+			);
+			name = empytimaTests;
+			productName = empytimaTests;
+			productReference = CEFA997217DB1AEA00E5EC94 /* empytimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFA994A17DB1AEA00E5EC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CEFA997117DB1AEA00E5EC94 = {
+						TestTargetID = CEFA995117DB1AEA00E5EC94;
+					};
+				};
+			};
+			buildConfigurationList = CEFA994D17DB1AEA00E5EC94 /* Build configuration list for PBXProject "empytima" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEFA994917DB1AEA00E5EC94;
+			productRefGroup = CEFA995317DB1AEA00E5EC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFA995117DB1AEA00E5EC94 /* empytima */,
+				CEFA997117DB1AEA00E5EC94 /* empytimaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFA995017DB1AEA00E5EC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA998E17DB1B1200E5EC94 /* ViewControllerOne.xib in Resources */,
+				CE5377C217E03D5C00EF3367 /* menu@2x.png in Resources */,
+				CE53400017E129E200735C0F /* config4@2x.png in Resources */,
+				CEFA996217DB1AEA00E5EC94 /* InfoPlist.strings in Resources */,
+				CE5377BE17E03BA100EF3367 /* set<@2x.png in Resources */,
+				CEFA996D17DB1AEA00E5EC94 /* Images.xcassets in Resources */,
+				CE5377C017E03C0000EF3367 /* set>@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA997017DB1AEA00E5EC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA997F17DB1AEA00E5EC94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFA994E17DB1AEA00E5EC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA996817DB1AEA00E5EC94 /* AppDelegate.m in Sources */,
+				CEFA996B17DB1AEA00E5EC94 /* empytima.xcdatamodeld in Sources */,
+				CEFA996417DB1AEA00E5EC94 /* main.m in Sources */,
+				CEFA998D17DB1B1200E5EC94 /* ViewControllerOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA996E17DB1AEA00E5EC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA998117DB1AEA00E5EC94 /* empytimaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFA997917DB1AEA00E5EC94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFA995117DB1AEA00E5EC94 /* empytima */;
+			targetProxy = CEFA997817DB1AEA00E5EC94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFA996017DB1AEA00E5EC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA996117DB1AEA00E5EC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEFA997D17DB1AEA00E5EC94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA997E17DB1AEA00E5EC94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFA998217DB1AEA00E5EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFA998317DB1AEA00E5EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFA998517DB1AEA00E5EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "empytima/empytima-Prefix.pch";
+				INFOPLIST_FILE = "empytima/empytima-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFA998617DB1AEA00E5EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "empytima/empytima-Prefix.pch";
+				INFOPLIST_FILE = "empytima/empytima-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEFA998817DB1AEA00E5EC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/empytima.app/empytima";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "empytima/empytima-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "empytimaTests/empytimaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEFA998917DB1AEA00E5EC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/empytima.app/empytima";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "empytima/empytima-Prefix.pch";
+				INFOPLIST_FILE = "empytimaTests/empytimaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFA994D17DB1AEA00E5EC94 /* Build configuration list for PBXProject "empytima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA998217DB1AEA00E5EC94 /* Debug */,
+				CEFA998317DB1AEA00E5EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA998417DB1AEA00E5EC94 /* Build configuration list for PBXNativeTarget "empytima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA998517DB1AEA00E5EC94 /* Debug */,
+				CEFA998617DB1AEA00E5EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA998717DB1AEA00E5EC94 /* Build configuration list for PBXNativeTarget "empytimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA998817DB1AEA00E5EC94 /* Debug */,
+				CEFA998917DB1AEA00E5EC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFA996917DB1AEA00E5EC94 /* empytima.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFA996A17DB1AEA00E5EC94 /* empytima.xcdatamodel */,
+			);
+			currentVersion = CEFA996A17DB1AEA00E5EC94 /* empytima.xcdatamodel */;
+			path = empytima.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFA994A17DB1AEA00E5EC94 /* Project object */;
+}

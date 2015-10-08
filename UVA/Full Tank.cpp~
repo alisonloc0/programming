@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <iostream>
+#include <cstring>
+#include <queue>
+#include <cmath>
+#include <pair>
+#include <vector>
+#include <set>
+#include <utility>
+#include <bitset>
+#include <cstdlib>
+#define MAXN 1010
+#define MAXM 10010
+#define INF 1000000000
+using namespace std;
+
+vector< pair<int,int> >[MAXN] list;
+vector<int> p;
+int S,T,C;			
+int cost[MAXN][20]; 
+
+struct foo{
+  int w,c,f;
+  foo(int w_,int c_,int f_){
+    w = w_;
+    c = c_;
+    f = f_;
+  }
+  bool operator > ( const foo& A) const{
+    return A.c > c;
+  }
+}
+
+int sssp(){
+  <priority_queue> pq;
+  pq.insert(
+  
+}
+
+
+int main(){
+  int N,M;
+  cin >> N >> M;
+  for(int i=0;i<N;i++){
+    int x;
+    p.push_back(x);
+  }
+  for(int i=0;i<M;i++){
+    int v,w,d;
+    cin >> v >> w >> d;
+    list[v].push_back(make_pair(w,d));
+  }
+  int k; cin >> k;
+  for(int i=0;i<k;i++){
+    cin >> C >> S >> T;
+    for(int i=0;i<MAXN;i++){
+      for(int j=0;i<20;j++){
+	cost[i][j] = INF;
+      }
+    }
+    sssp();
+  }
+  return 0;
+}
